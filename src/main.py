@@ -119,7 +119,7 @@ while running:
             ovni.position(screen.window)
 
             # show score
-            screen.set_score('freesansbold.ttf', 32 , {"x": 10, "y": 10 } , score_points)
+            screen.set_score('assets/freesansbold.ttf', 32 , {"x": 10, "y": 10 } , score_points)
 
         # # bullet movement
         # if bullets.visibility_bullet:
@@ -130,6 +130,6 @@ while running:
         space_ship.position(screen.window)
     else:
         #show gameOver text
-        screen.game_over('freesansbold.ttf', 100)
+        screen.game_over('assets/freesansbold.ttf', 100)
 
     screen.update()  # Update the display
